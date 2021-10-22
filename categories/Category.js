@@ -11,4 +11,7 @@ const Category = connection.define("categories", {
     }
 })
 
+//forçando o banco a ser atualizado
+// Category.sync({force: true})
+
 module.exports = Category
